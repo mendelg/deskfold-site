@@ -57,6 +57,8 @@ nav a:not(.brand) { color: var(--muted); }
 .hero h1 { font-size: 48px; line-height: 1.1; margin: 16px 0 10px; letter-spacing: -0.02em; }
 .hero p { font-size: 21px; margin: 0 auto 32px; max-width: 520px; opacity: 0.9; }
 .hero .shot {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   display: block;
   width: min(900px, 100%);
   margin: 40px auto 0;
@@ -87,6 +89,13 @@ p, li { color: var(--text); }
 .feature { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; }
 .feature h3 { margin: 0 0 4px; }
 .feature p { margin: 0; color: var(--muted); font-size: 15px; }
+
+.cta { text-align: center; }
+.cta img { width: 88px; height: 88px; }
+.cta h2 { margin: 12px 0 6px; }
+.cta p { margin: 0 0 20px; }
+.cta p.small { font-size: 14px; margin: 16px 0 0; }
+.button.primary { background: var(--accent); color: #fff; }
 
 .figure { width: 100%; border-radius: 14px; margin-top: 8px; border: 1px solid var(--line); }
 

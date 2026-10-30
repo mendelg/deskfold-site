@@ -72,6 +72,9 @@ nav a:not(.brand) { color: var(--muted); }
   color: var(--hero-a);
   font-weight: 600;
 }
+.hero p.note { font-size: 14px; margin: 12px auto 0; opacity: 0.75; }
+.page .button.download { background: var(--accent); color: #fff; }
+
 .button:hover { text-decoration: none; opacity: 0.92; }
 
 section { padding: 56px 0; }
